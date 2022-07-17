@@ -1,0 +1,132 @@
+header {
+    width: 100%;
+    background: #0d6efd;
+    height: 70%;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+header a {
+    margin-left: 30px;
+    color: #ffffff;
+}
+
+header a:hover {
+    color: #ffffff;
+}
+
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
+.wraper {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.v {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    /* position: relative;
+    right: 30px; */
+}
+
+.logo a {
+    margin: 0;
+}
+
+.filters {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    background: #eee;
+    padding: 20px;
+    position: sticky;
+    top: 100px;
+}
+
+.filters select {
+    width: 160px;
+    height: 30px;
+    /* margin-top: 30px; */
+}
+
+
+/* .apartments {
+    margin-right: 200px;
+} */
+
+.item {
+    /* width: 400px; */
+    display: flex;
+    background: #eee;
+    padding: 10px;
+}
+
+.options {
+    width: 380px;
+    margin-left: 20px;
+}
+
+.add {
+    flex-direction: column;
+}
+
+.ex {
+    background: #0d6efd;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ex:hover {
+    color: #ffffff;
+    background: #1465ce;
+}
+
+table {
+    font-size: 13px;
+}
+
+th,
+td {
+    padding: 2px;
+}
